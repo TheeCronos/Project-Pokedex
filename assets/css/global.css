@@ -5,14 +5,19 @@
 }
 
 body {
-    background-color: rgb(19, 17, 27);
+    width: 100vw;
+    height: 100vh;
+    background-image: url("cropped-3840-2160-1243956.jpg");
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .content {
     width: 100vw;
     height: 100%;
     padding: 1rem;
-    background-color: rgba(13, 49, 58, 0.952);
+    background-color: rgba(11, 20, 22, 0.952);
+    opacity: 10;
 }
 
 h1 {
