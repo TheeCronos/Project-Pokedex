@@ -5,14 +5,19 @@
 }
 
 body {
-    background-color: #f6f8fc;
+    background-color: rgb(19, 17, 27);
 }
 
 .content {
     width: 100vw;
     height: 100%;
     padding: 1rem;
-    background-color: #fff;
+    background-color: rgba(13, 49, 58, 0.952);
+}
+
+h1 {
+    color: aliceblue;
+    padding: 1rem;
 }
 
 @media screen and (min-width: 992px){
