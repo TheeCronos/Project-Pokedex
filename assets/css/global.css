@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+.logo{
+    height: 100px;
+    display: block;
+    margin: auto;
+}
+
 body {
     width: 100vw;
     height: 100vh;
@@ -20,11 +26,6 @@ body {
     opacity: 10;
 }
 
-h1 {
-    color: aliceblue;
-    padding: 1rem;
-}
-
 @media screen and (min-width: 992px){   
     .content {
         max-width: 992px;
@@ -34,3 +35,8 @@ h1 {
     }
 }
 
+.element {
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+}
