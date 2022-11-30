@@ -85,7 +85,7 @@
     margin: .5rem;
     padding: 1rem;
     border-radius: 1rem;
-    background-image: url("Pokeball.png");
+    background-image: url("images/Pokeball.png");
     background-position-x: right;
     background-position-y: center;
     background-size: 140px;
@@ -138,17 +138,6 @@
 }
 
 .a {
-    /*
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    transform: translateY(101%);
-    transition: 0.3s ease-in;
-    background-color: #333333;
-    */
     height: 85%;
     color: #fff;
 }

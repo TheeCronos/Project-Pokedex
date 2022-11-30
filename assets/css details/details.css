@@ -1,0 +1,67 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    text-transform: none;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("images/cropped-3840-2160-1243956.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.types {
+    list-style: none;
+}
+
+.cont {
+    height: auto;
+    padding: .5rem;
+    margin: 1rem auto;
+    max-width: 992px;
+    background-color: #77c850;
+    border-radius: 1rem;
+    opacity: 10;
+    border-style: solid;
+    border-width: .3px;
+}
+
+.header_left {
+    display: flex;
+    color: white;
+    align-items: center;
+    padding: 1rem;
+}
+
+.header_left .name {
+    font-size: 25px;
+    padding-left: 1rem;
+}
+
+.header .number {
+    color: white;
+    padding-right: 2rem;
+}
+
+.detalhe {
+    background-color: white;
+    height: 500px;
+    border-radius: 1rem;
+}
+
+.detail {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.detail .img img{
+    width: 14rem;
+}

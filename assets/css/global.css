@@ -14,14 +14,10 @@
     height: 100px;
 }
 
-.header .search {
-
-}
-
 body {
     width: 100vw;
     height: 100vh;
-    background-image: url("cropped-3840-2160-1243956.jpg");
+    background-image: url("images/cropped-3840-2160-1243956.jpg");
     background-size: cover;
     background-attachment: fixed;
 }

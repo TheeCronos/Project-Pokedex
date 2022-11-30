@@ -10,36 +10,38 @@ let offset = 0;
 
 function convertPokemonToLi(pokemon) {
     return `
-    <li class="pokemon ${pokemon.type}">
-        <span class="number">#${pokemon.number}</span>
-        <span class="name">${pokemon.name}</span>
+    <a href="details.html">
+        <li class="pokemon ${pokemon.type}">
+            <span class="number">#${pokemon.number}</span>
+            <span class="name">${pokemon.name}</span>
 
-        <div class="detail">
-            <ol class="types">
-                ${pokemon.types.map((type) => 
-                    `<li class="type ${type}">${type}</li>`).join('')}
-            </ol>
-            <img src="${pokemon.photo}" alt="${pokemon.name}">
-        </div>
+            <div class="detail">
+                <ol class="types">
+                    ${pokemon.types.map((type) => 
+                        `<li class="type ${type}">${type}</li>`).join('')}
+                </ol>
+                <img src="${pokemon.photo}" alt="${pokemon.name}">
+            </div>
 
-        <div class="xpStats">
-            <ol class="container">
-                <li class="xp">Xp: ${pokemon.xp}</li>
-                <li class="height">Height: ${pokemon.height}</li>
-                <li class="weight">Weight: ${pokemon.weight}</li>
-            </ol>
-        </div>
+            <div class="xpStats">
+                <ol class="container">
+                    <li class="xp">Xp: ${pokemon.xp}</li>
+                    <li class="height">Height: ${pokemon.height}</li>
+                    <li class="weight">Weight: ${pokemon.weight}</li>
+                </ol>
+            </div>
 
-        <!--
-        <span class="a">Skills</span>
-        <div class="abilities">
-            <ol class="abilityTypes">
-                ${pokemon.abilities.map((ability) => 
-                    `<li class="ability ${ability}">${ability}</li>`).join('')}
-            </ol>
-        </div>
-        --!>
-    </li>
+            <!--
+            <span class="a">Skills</span>
+            <div class="abilities">
+                <ol class="abilityTypes">
+                    ${pokemon.abilities.map((ability) => 
+                        `<li class="ability ${ability}">${ability}</li>`).join('')}
+                </ol>
+            </div>
+            --!>
+        </li>
+    </a>
     `;
 }
 
