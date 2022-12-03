@@ -27,9 +27,15 @@ body {
     max-width: 992px;
     background-color: #77c850;
     border-radius: 1rem;
-    opacity: 10;
-    border-style: solid;
-    border-width: .3px;
+}
+
+.pokemonn {
+    margin-top: -50px;
+}
+
+.pokemonn .header {
+    position: relative;
+    top: 50px;
 }
 
 .header_left {
@@ -63,5 +69,30 @@ body {
 }
 
 .detail .img img{
-    width: 14rem;
+    margin: -50px;
+    width: 20rem;
+    position: relative;
+    top: 50px;
+}
+
+.detail .left,.right{
+    position: relative;
+    top: 100px;
+}
+
+.types {
+    display: flex;
+    justify-content: center;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.types li {
+    padding: 1rem;
+    margin-top: 50px;
+}
+
+.detalhe ol {
+    margin: 50px;
+    padding-left: 0px;
 }

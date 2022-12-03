@@ -1,8 +1,5 @@
 const pokemonList = document.getElementById('pokemonList');
 const loadMoreButton = document.getElementById('loadMoreButton');
-const search = document.getElementById("search");
-const form = document.getElementById("form");
-
 
 const maxRecords = 151;
 const limit = 12;
@@ -30,16 +27,6 @@ function convertPokemonToLi(pokemon) {
                     <li class="weight">Weight: ${pokemon.weight}</li>
                 </ol>
             </div>
-
-            <!--
-            <span class="a">Skills</span>
-            <div class="abilities">
-                <ol class="abilityTypes">
-                    ${pokemon.abilities.map((ability) => 
-                        `<li class="ability ${ability}">${ability}</li>`).join('')}
-                </ol>
-            </div>
-            --!>
         </li>
     </a>
     `;
@@ -66,17 +53,5 @@ loadMoreButton.addEventListener('click', () => {
         loadMoreButton.parentElement.removeChild(loadMoreButton);
     } else {
         loadPokemonItens(offset, limit);
-    }
-})
-
-form.addEventListener("submit", (e) => {
-    e.preventDefault();
-    const searchItem = search.nodeValue;
-    if (searchItem) {
-        pokemon(searchItem);
-        search.value = "";
-    } else if (searchItem === "") {
-        pokemons = [];
-
     }
 })

@@ -78,7 +78,6 @@
     background-color: #f9aec7;
 }
 
-
 .pokemon {
     display: flex;
     flex-direction: column;
@@ -140,10 +139,6 @@
 .a {
     height: 85%;
     color: #fff;
-}
-
-.pokemon:hover .a{
-    transform: translateY(0);
 }
 
 .pokemon .abilities{
@@ -212,7 +207,7 @@
     border-radius: 1rem;
 }
 
-@media screen and (min-width: 300px){
+@media screen and (min-width: 480px){
     .pokemons {
         grid-template-columns: 1fr 1fr;
         
