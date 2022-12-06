@@ -53,6 +53,7 @@ body {
 .header .number {
     color: white;
     padding-right: 2rem;
+    font-size: 25px;
 }
 
 .detalhe {
@@ -95,4 +96,31 @@ body {
 .detalhe ol {
     margin: 50px;
     padding-left: 0px;
+}
+
+.detalhe .specs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0px;
+    gap: 24px;
+    height: auto;
+}
+
+.specs p {
+    text-align: center;
+}
+
+.specs_weight,.specs_height{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.specs3 {
+    
+}
+
+.barra {
+
 }
