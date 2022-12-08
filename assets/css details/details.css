@@ -81,10 +81,21 @@ body {
     top: 100px;
 }
 
-.types {
+.detalhe .types {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 50px 50px 0px;
+
+}
+
+.types .type{
+    color: #fff;
+    padding: .25rem .5rem;
+    margin: .25rem 0;
+    font-size: .800rem;
     border-radius: 1rem;
+    filter: brightness(1.1);
     text-align: center;
 }
 
@@ -94,7 +105,7 @@ body {
 }
 
 .detalhe ol {
-    margin: 50px;
+    margin: 50px 50px 10px 50px;
     padding-left: 0px;
 }
 
@@ -109,6 +120,7 @@ body {
 
 .specs p {
     text-align: center;
+    font-size: 14px;
 }
 
 .specs_weight,.specs_height{
@@ -117,10 +129,28 @@ body {
     align-items: center;
 }
 
-.specs3 {
-    
+ol.ol_moves {
+    list-style: none;
+    margin: 0px;
 }
 
-.barra {
+.detalhe .specs {
+    height: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px 25px;
+}
 
+.specs3 {
+    padding-top: 12px;
+}
+
+.detalhe .about {
+    text-align: center;
+    color: #74cb48;
+    margin: 20px;
+    padding: 0px;
+    font-weight: bold;
+    font-size: 20px;
 }
