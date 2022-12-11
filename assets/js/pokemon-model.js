@@ -12,7 +12,6 @@ class Pokemon {
     height;
     weight;
 
+    stat;
     stats = [];
-    stats_name = [];
-    stats_value = [];
 }
