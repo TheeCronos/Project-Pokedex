@@ -37,7 +37,7 @@ function convertPokemon(pokemon) {
                         `<li class="type ${type}">${type}</li>`).join('')}
                 </ol>
 
-                <p class="about">About</p>
+                <p id="about" class="about ${pokemon.type}">About</p>
                 <div class="specs">
                     <div class="specs1">
                         <div class="specs_weight">
@@ -47,7 +47,7 @@ function convertPokemon(pokemon) {
                         <p>Weight</p>
                     </div>
 
-                    <img class="divisor" src="assets/Space.png" alt="">
+                    <img class="divisor" src="assets/Space.png">
 
                     <div class="specs2">
                         <div class="specs_height">
@@ -57,7 +57,7 @@ function convertPokemon(pokemon) {
                         <p>Height</p>
                     </div>
 
-                    <img class="divisor" src="assets/Space.png" alt="">
+                    <img class="divisor" src="assets/Space.png">
                     
                     <div class="specs3">
                         <ol class="ol_moves">
@@ -68,10 +68,10 @@ function convertPokemon(pokemon) {
                     </div>
                 </div>
             
-                <p class="about">Base Stats</p>
+                <p id="about" class="about ${pokemon.type}">Base Stats</p>
 
                 <div class="stats">
-                    <div class="stats_name">
+                    <div id="about" class="stats_name ${pokemon.type}">
                         <ol>
                             <li>HP</li>
                             <li>ATK</li>
@@ -82,7 +82,7 @@ function convertPokemon(pokemon) {
                         </ol>
                     </div>
 
-                    <img class="divisor" src="assets/Space.png" alt="">
+                    <img class="divisor" src="assets/Space.png">
 
                     <div class="stats_value">
                         <ol>
@@ -91,13 +91,13 @@ function convertPokemon(pokemon) {
                         </ol>
                     </div>
 
-                    <div class="container-barra">
-                        <div class="barra"></div>
-                        <div class="barra"></div>
-                        <div class="barra"></div>
-                        <div class="barra"></div>
-                        <div class="barra"></div>
-                        <div class="barra"></div>
+                    <div id="about" class="container-barra">
+                        <div class="barra ${pokemon.type}"></div>
+                        <div class="barra ${pokemon.type}"></div>
+                        <div class="barra ${pokemon.type}"></div>
+                        <div class="barra ${pokemon.type}"></div>
+                        <div class="barra ${pokemon.type}"></div>
+                        <div class="barra ${pokemon.type}"></div>
                     </div>
                 </div>
             </div>

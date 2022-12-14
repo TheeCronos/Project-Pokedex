@@ -28,10 +28,6 @@ body {
     border-radius: 1rem;
 }
 
-.pokemonn {
-    margin-top: -50px;
-}
-
 .pokemonn .header {
     position: relative;
     top: 50px;
@@ -152,7 +148,6 @@ ol.ol_moves {
 
 .detalhe .about {
     text-align: center;
-    color: #74cb48;
     margin: 20px;
     padding: 0px;
     font-weight: bold;
@@ -173,6 +168,10 @@ ol.ol_moves {
     margin: 5px 20px;
 }
 
+.stats_name ol {
+    font-weight: bold;
+}
+
 .stats_value li,.stats_name li {
     padding-bottom:2px;
 }
@@ -180,11 +179,11 @@ ol.ol_moves {
 .stats_name {
     text-align: right;
     font-size: 14px;
-    color: #74cb48;
 }
 
 .stats_value {
     font-size: 14px;
+    color: black;
 }
 
 .container-barra {
@@ -207,5 +206,16 @@ ol.ol_moves {
 
 .specs_weight .i {
     height: 18px;
+}
 
+#about {
+    background: none;
+}
+
+.specs {
+    color: black;
+}
+
+.divisor {
+    border: 2px rgb(197, 197, 197) solid;
 }
